@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "738426988413",
+    "firebase_url": "https://cobalt-chalice-148821.firebaseio.com",
+    "project_id": "cobalt-chalice-148821",
+    "storage_bucket": "cobalt-chalice-148821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738426988413:android:bb084ec531310be6",
+        "android_client_info": {
+          "package_name": "com.prestech.myfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMQga8Fy2-L-buZa1smuZ5rc8rD5JA9As"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

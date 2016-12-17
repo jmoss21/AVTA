@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.prestech.Trackit.MainTabActivity"
+    android:background="#cce0ff">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/passsd_field"
+        android:text="password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/email_field"
+        android:layout_alignStart="@+id/email_field"
+        android:layout_marginTop="18dp"
+        android:background="#ffff"/>
+
+    <TextView
+        android:text="First Name :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:background="#ffff"
+        android:textColor="#0b0b0b"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/first_name_field"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp"
+        android:background="#ffff"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="26dp"
+        android:id="@+id/last_name_field"
+        android:layout_below="@+id/first_name_field"
+        android:layout_alignEnd="@+id/first_name_field"
+        android:background="#ffff"/>
+
+    <TextView
+        android:text="Last Name :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignBaseline="@+id/last_name_field"
+        android:layout_alignBottom="@+id/last_name_field"
+        android:layout_alignStart="@+id/textView2"
+        android:background="#ffff"
+        android:textColor="#0b0b0b"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phone_field"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/last_name_field"
+        android:layout_alignEnd="@+id/last_name_field"
+        android:background="#ffff"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/email_field"
+        android:layout_below="@+id/phone_field"
+        android:layout_alignEnd="@+id/phone_field"
+        android:background="#ffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:id="@+id/accnt_display_textView"
+        android:background="#ffff"
+        android:textColor="#0b0b0b"/>
+
+    <TextView
+        android:text="Phone :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Phone"
+        android:layout_alignBaseline="@+id/phone_field"
+        android:layout_alignBottom="@+id/phone_field"
+        android:layout_alignParentStart="true"
+        android:background="#ffff"
+        android:textColor="#0b0b0b"/>
+
+    <TextView
+        android:text="Email :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_alignBaseline="@+id/email_field"
+        android:layout_alignBottom="@+id/email_field"
+        android:layout_alignParentStart="true"
+        android:background="#ffff"
+        android:textColor="#0b0b0b"/>
+
+    <TextView
+        android:text="Password :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ui_passwd_text"
+        android:layout_alignBaseline="@+id/passsd_field"
+        android:layout_alignBottom="@+id/passsd_field"
+        android:layout_alignParentStart="true"
+        android:background="#ffff"
+        android:textColor="#0b0b0b"/>
+
+    <TextView
+        android:text="Change  Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/accnt_display_textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="128dp"
+        android:id="@+id/change_passwd_tv"
+        android:background="#ffff"
+        android:textColor="#df0b0b"/>
+
+
+</RelativeLayout>

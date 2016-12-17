@@ -1,0 +1,65 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trip_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cce0ff">
+
+
+    <Button
+        android:text="End Tracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stop_track_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@+id/stop_track_btn"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Lat [ ]  | Lng [ ]"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cord_display"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/time_textview"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Car Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/car_info_textview"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_textview"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/car_info_textview"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Miles  [0.0]"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cord_display"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/miles_textview" />
+
+</RelativeLayout>
